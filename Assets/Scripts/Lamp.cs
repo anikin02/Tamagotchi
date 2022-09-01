@@ -40,6 +40,7 @@ public class Lamp : MonoBehaviour
     private void TurnOnOrOff()
     {
         isWorking = !isWorking;
+        hero.GetComponent<Player>().ToSlepping = !isWorking;
         SetSprite();
         StartCoroutine(Sleeping());
     }

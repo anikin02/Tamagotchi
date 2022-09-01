@@ -1,8 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Food
+    - Fridge
     - Lamp
     - Player
+    - SaveGame
+    - Shower
+    - SwapScene
     - TV
     - UI
     Unity.2D.Animation.Editor.dll:
@@ -18,8 +23,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.CollabProxy.Editor.dll:
-    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -39,6 +42,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.ScrollRect
   sceneClasses:
     Assets/Scenes/Home.unity:
     - Class: 1
@@ -58,30 +62,148 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1516}
+      Script: {instanceID: 1518}
     - Class: 114
-      Script: {instanceID: 1816}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 2678}
+      Script: {instanceID: 2126}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3028}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 3062}
+    - Class: 114
+      Script: {instanceID: 3098}
     - Class: 114
       Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3458}
+      Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 3468}
+    - Class: 114
+      Script: {instanceID: 4578}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Kitchen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1518}
+    - Class: 114
+      Script: {instanceID: 2126}
+    - Class: 114
+      Script: {instanceID: 2684}
+    - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
+      Script: {instanceID: 2858}
+    - Class: 114
+      Script: {instanceID: 3062}
+    - Class: 114
+      Script: {instanceID: 3098}
+    - Class: 114
+      Script: {instanceID: 3346}
+    - Class: 114
+      Script: {instanceID: 3468}
+    - Class: 114
+      Script: {instanceID: 4268}
+    - Class: 114
+      Script: {instanceID: 4578}
+    - Class: 114
+      Script: {instanceID: 4736}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Shower.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1518}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 2126}
+    - Class: 114
+      Script: {instanceID: 2684}
+    - Class: 114
+      Script: {instanceID: 2858}
+    - Class: 114
+      Script: {instanceID: 3062}
+    - Class: 114
+      Script: {instanceID: 3098}
+    - Class: 114
+      Script: {instanceID: 3346}
+    - Class: 114
+      Script: {instanceID: 3468}
+    - Class: 114
+      Script: {instanceID: 4578}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -106,6 +228,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 19c635b87a0f2ddd44b7ee7842192258
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shower
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -180,6 +308,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: c945f4f74c13e6cb27bfff08cd2f6a9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SwapScene
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -228,6 +362,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 12665a43b10ee8677f3c42a4fe9eaffa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Fridge
+  - hash:
+      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -264,7 +404,13 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 47d956e8d8df96453a5f823d5cbc4315
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveGame
+  - hash:
+      serializedVersion: 2
+      Hash: eae8cfad10de1f69269b024d6f439e94
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UI
@@ -456,6 +602,12 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
+      Hash: 89efd1db585e852a19ad4823adcde7b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Food
+  - hash:
+      serializedVersion: 2
       Hash: 87cef3c82381dc586f6772c3e27561b6
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -498,7 +650,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
-      Hash: c6aa11f3fee040223b87e2599ba19f43
+      Hash: ab98ff35648c0172cf461bc75723414b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -634,7 +786,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AlwaysLife
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
+  - Assets/Scenes/Kitchen.unity
+  - Assets/Scenes/Shower.unity
   playerPath: C:/Users/1/Desktop/instal.apk

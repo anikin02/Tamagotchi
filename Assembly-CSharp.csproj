@@ -36,13 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Shower.cs" />
      <Compile Include="Assets\Scripts\Lamp.cs" />
      <Compile Include="Assets\Scripts\SwapScene.cs" />
+     <Compile Include="Assets\Scripts\Fridge.cs" />
+     <Compile Include="Assets\Scripts\SaveGame.cs" />
      <Compile Include="Assets\Scripts\UI.cs" />
      <Compile Include="Assets\Scripts\TV.cs" />
+     <Compile Include="Assets\Scripts\DataHolder.cs" />
+     <Compile Include="Assets\Scripts\Food.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Bar.cs" />
-     <Compile Include="Assets\Scripts\DataHolder.cs" />
+     <Compile Include="Assets\Scripts\AlwaysLife.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
